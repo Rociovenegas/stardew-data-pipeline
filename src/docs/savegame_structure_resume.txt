@@ -1,0 +1,1588 @@
+Generated from XML tree traversal script on 2026-02-19.
+Represents full node hierarchy of SaveGame.
+Used as structural reference during domain modeling.
+
+SaveGame
+SaveGame -> player
+SaveGame -> player -> name
+SaveGame -> player -> forceOneTileWide
+SaveGame -> player -> isEmoting
+SaveGame -> player -> isCharging
+SaveGame -> player -> isGlowing
+SaveGame -> player -> coloredBorder
+SaveGame -> player -> flip
+SaveGame -> player -> drawOnTop
+SaveGame -> player -> faceTowardFarmer
+SaveGame -> player -> ignoreMovementAnimation
+SaveGame -> player -> faceAwayFromFarmer
+SaveGame -> player -> scale
+SaveGame -> player -> scale -> float
+SaveGame -> player -> glowingTransparency
+SaveGame -> player -> glowRate
+SaveGame -> player -> Gender
+SaveGame -> player -> willDestroyObjectsUnderfoot
+SaveGame -> player -> Position
+SaveGame -> player -> Position -> X
+SaveGame -> player -> Position -> Y
+SaveGame -> player -> Speed
+SaveGame -> player -> FacingDirection
+SaveGame -> player -> IsEmoting
+SaveGame -> player -> CurrentEmote
+SaveGame -> player -> Scale
+SaveGame -> player -> questLog
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> whoToGreet
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> whoToGreet -> string
+SaveGame -> player -> questLog -> Quest -> total
+SaveGame -> player -> questLog -> Quest -> parts
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement -> xmlKey
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement -> param
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement -> param -> xmlKey
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement
+SaveGame -> player -> questLog -> Quest -> parts -> DescriptionElement -> xmlKey
+SaveGame -> player -> questLog -> Quest -> objective
+SaveGame -> player -> questLog -> Quest -> objective -> xmlKey
+SaveGame -> player -> questLog -> Quest -> objective -> param
+SaveGame -> player -> questLog -> Quest -> objective -> param
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> itemIndex
+SaveGame -> player -> questLog -> Quest -> number
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> whereToGo
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> npcName
+SaveGame -> player -> questLog -> Quest -> locationOfItem
+SaveGame -> player -> questLog -> Quest -> itemIndex
+SaveGame -> player -> questLog -> Quest -> tileX
+SaveGame -> player -> questLog -> Quest -> tileY
+SaveGame -> player -> questLog -> Quest -> itemFound
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> targetMessage
+SaveGame -> player -> questLog -> Quest -> target
+SaveGame -> player -> questLog -> Quest -> item
+SaveGame -> player -> questLog -> Quest -> number
+SaveGame -> player -> questLog -> Quest -> parts
+SaveGame -> player -> questLog -> Quest -> dialogueparts
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> npcName
+SaveGame -> player -> questLog -> Quest -> locationOfItem
+SaveGame -> player -> questLog -> Quest -> itemIndex
+SaveGame -> player -> questLog -> Quest -> tileX
+SaveGame -> player -> questLog -> Quest -> tileY
+SaveGame -> player -> questLog -> Quest -> itemFound
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> targetMessage
+SaveGame -> player -> questLog -> Quest -> target
+SaveGame -> player -> questLog -> Quest -> item
+SaveGame -> player -> questLog -> Quest -> number
+SaveGame -> player -> questLog -> Quest -> parts
+SaveGame -> player -> questLog -> Quest -> dialogueparts
+SaveGame -> player -> questLog -> Quest
+SaveGame -> player -> questLog -> Quest -> _currentObjective
+SaveGame -> player -> questLog -> Quest -> _questDescription
+SaveGame -> player -> questLog -> Quest -> _questTitle
+SaveGame -> player -> questLog -> Quest -> rewardDescription
+SaveGame -> player -> questLog -> Quest -> accepted
+SaveGame -> player -> questLog -> Quest -> completed
+SaveGame -> player -> questLog -> Quest -> dailyQuest
+SaveGame -> player -> questLog -> Quest -> showNew
+SaveGame -> player -> questLog -> Quest -> canBeCancelled
+SaveGame -> player -> questLog -> Quest -> destroy
+SaveGame -> player -> questLog -> Quest -> id
+SaveGame -> player -> questLog -> Quest -> moneyReward
+SaveGame -> player -> questLog -> Quest -> questType
+SaveGame -> player -> questLog -> Quest -> daysLeft
+SaveGame -> player -> questLog -> Quest -> dayQuestAccepted
+SaveGame -> player -> questLog -> Quest -> nextQuests
+SaveGame -> player -> questLog -> Quest -> nextQuests -> int
+SaveGame -> player -> questLog -> Quest -> questTitle
+SaveGame -> player -> questLog -> Quest -> targetMessage
+SaveGame -> player -> questLog -> Quest -> target
+SaveGame -> player -> questLog -> Quest -> item
+SaveGame -> player -> questLog -> Quest -> number
+SaveGame -> player -> questLog -> Quest -> parts
+SaveGame -> player -> questLog -> Quest -> dialogueparts
+SaveGame -> player -> professions
+SaveGame -> player -> newLevels
+SaveGame -> player -> experiencePoints
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> experiencePoints -> int
+SaveGame -> player -> items
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> initialParentTileIndex
+SaveGame -> player -> items -> Item -> currentParentTileIndex
+SaveGame -> player -> items -> Item -> indexOfMenuItemView
+SaveGame -> player -> items -> Item -> instantUse
+SaveGame -> player -> items -> Item -> isEfficient
+SaveGame -> player -> items -> Item -> animationSpeedModifier
+SaveGame -> player -> items -> Item -> swingTicker
+SaveGame -> player -> items -> Item -> upgradeLevel
+SaveGame -> player -> items -> Item -> numAttachmentSlots
+SaveGame -> player -> items -> Item -> attachments
+SaveGame -> player -> items -> Item -> InitialParentTileIndex
+SaveGame -> player -> items -> Item -> IndexOfMenuItemView
+SaveGame -> player -> items -> Item -> InstantUse
+SaveGame -> player -> items -> Item -> IsEfficient
+SaveGame -> player -> items -> Item -> AnimationSpeedModifier
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> initialParentTileIndex
+SaveGame -> player -> items -> Item -> currentParentTileIndex
+SaveGame -> player -> items -> Item -> indexOfMenuItemView
+SaveGame -> player -> items -> Item -> instantUse
+SaveGame -> player -> items -> Item -> isEfficient
+SaveGame -> player -> items -> Item -> animationSpeedModifier
+SaveGame -> player -> items -> Item -> swingTicker
+SaveGame -> player -> items -> Item -> upgradeLevel
+SaveGame -> player -> items -> Item -> numAttachmentSlots
+SaveGame -> player -> items -> Item -> attachments
+SaveGame -> player -> items -> Item -> InitialParentTileIndex
+SaveGame -> player -> items -> Item -> IndexOfMenuItemView
+SaveGame -> player -> items -> Item -> InstantUse
+SaveGame -> player -> items -> Item -> IsEfficient
+SaveGame -> player -> items -> Item -> AnimationSpeedModifier
+SaveGame -> player -> items -> Item -> additionalPower
+SaveGame -> player -> items -> Item -> additionalPower -> int
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> initialParentTileIndex
+SaveGame -> player -> items -> Item -> currentParentTileIndex
+SaveGame -> player -> items -> Item -> indexOfMenuItemView
+SaveGame -> player -> items -> Item -> instantUse
+SaveGame -> player -> items -> Item -> isEfficient
+SaveGame -> player -> items -> Item -> animationSpeedModifier
+SaveGame -> player -> items -> Item -> swingTicker
+SaveGame -> player -> items -> Item -> upgradeLevel
+SaveGame -> player -> items -> Item -> numAttachmentSlots
+SaveGame -> player -> items -> Item -> attachments
+SaveGame -> player -> items -> Item -> InitialParentTileIndex
+SaveGame -> player -> items -> Item -> IndexOfMenuItemView
+SaveGame -> player -> items -> Item -> InstantUse
+SaveGame -> player -> items -> Item -> IsEfficient
+SaveGame -> player -> items -> Item -> AnimationSpeedModifier
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> minDamage
+SaveGame -> player -> items -> Item -> maxDamage
+SaveGame -> player -> items -> Item -> speed
+SaveGame -> player -> items -> Item -> addedPrecision
+SaveGame -> player -> items -> Item -> addedDefense
+SaveGame -> player -> items -> Item -> addedAreaOfEffect
+SaveGame -> player -> items -> Item -> knockback
+SaveGame -> player -> items -> Item -> critChance
+SaveGame -> player -> items -> Item -> critMultiplier
+SaveGame -> player -> items -> Item -> isOnSpecial
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> initialParentTileIndex
+SaveGame -> player -> items -> Item -> currentParentTileIndex
+SaveGame -> player -> items -> Item -> indexOfMenuItemView
+SaveGame -> player -> items -> Item -> instantUse
+SaveGame -> player -> items -> Item -> isEfficient
+SaveGame -> player -> items -> Item -> animationSpeedModifier
+SaveGame -> player -> items -> Item -> swingTicker
+SaveGame -> player -> items -> Item -> upgradeLevel
+SaveGame -> player -> items -> Item -> numAttachmentSlots
+SaveGame -> player -> items -> Item -> attachments
+SaveGame -> player -> items -> Item -> InitialParentTileIndex
+SaveGame -> player -> items -> Item -> IndexOfMenuItemView
+SaveGame -> player -> items -> Item -> InstantUse
+SaveGame -> player -> items -> Item -> IsEfficient
+SaveGame -> player -> items -> Item -> AnimationSpeedModifier
+SaveGame -> player -> items -> Item -> additionalPower
+SaveGame -> player -> items -> Item -> additionalPower -> int
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> items -> Item
+SaveGame -> player -> items -> Item -> isLostItem
+SaveGame -> player -> items -> Item -> category
+SaveGame -> player -> items -> Item -> hasBeenInInventory
+SaveGame -> player -> items -> Item -> name
+SaveGame -> player -> items -> Item -> parentSheetIndex
+SaveGame -> player -> items -> Item -> itemId
+SaveGame -> player -> items -> Item -> specialItem
+SaveGame -> player -> items -> Item -> isRecipe
+SaveGame -> player -> items -> Item -> quality
+SaveGame -> player -> items -> Item -> stack
+SaveGame -> player -> items -> Item -> SpecialVariable
+SaveGame -> player -> items -> Item -> tileLocation
+SaveGame -> player -> items -> Item -> tileLocation -> X
+SaveGame -> player -> items -> Item -> tileLocation -> Y
+SaveGame -> player -> items -> Item -> owner
+SaveGame -> player -> items -> Item -> type
+SaveGame -> player -> items -> Item -> canBeSetDown
+SaveGame -> player -> items -> Item -> canBeGrabbed
+SaveGame -> player -> items -> Item -> isSpawnedObject
+SaveGame -> player -> items -> Item -> questItem
+SaveGame -> player -> items -> Item -> isOn
+SaveGame -> player -> items -> Item -> fragility
+SaveGame -> player -> items -> Item -> price
+SaveGame -> player -> items -> Item -> edibility
+SaveGame -> player -> items -> Item -> bigCraftable
+SaveGame -> player -> items -> Item -> setOutdoors
+SaveGame -> player -> items -> Item -> setIndoors
+SaveGame -> player -> items -> Item -> readyForHarvest
+SaveGame -> player -> items -> Item -> showNextIndex
+SaveGame -> player -> items -> Item -> flipped
+SaveGame -> player -> items -> Item -> isLamp
+SaveGame -> player -> items -> Item -> minutesUntilReady
+SaveGame -> player -> items -> Item -> boundingBox
+SaveGame -> player -> items -> Item -> boundingBox -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Width
+SaveGame -> player -> items -> Item -> boundingBox -> Height
+SaveGame -> player -> items -> Item -> boundingBox -> Location
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Location -> Y
+SaveGame -> player -> items -> Item -> boundingBox -> Size
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> X
+SaveGame -> player -> items -> Item -> boundingBox -> Size -> Y
+SaveGame -> player -> items -> Item -> scale
+SaveGame -> player -> items -> Item -> scale -> X
+SaveGame -> player -> items -> Item -> scale -> Y
+SaveGame -> player -> items -> Item -> uses
+SaveGame -> player -> items -> Item -> destroyOvernight
+SaveGame -> player -> dialogueQuestionsAnswered
+SaveGame -> player -> cookingRecipes
+SaveGame -> player -> cookingRecipes -> item
+SaveGame -> player -> cookingRecipes -> item -> key
+SaveGame -> player -> cookingRecipes -> item -> key -> string
+SaveGame -> player -> cookingRecipes -> item -> value
+SaveGame -> player -> cookingRecipes -> item -> value -> int
+SaveGame -> player -> cookingRecipes -> item
+SaveGame -> player -> cookingRecipes -> item -> key
+SaveGame -> player -> cookingRecipes -> item -> key -> string
+SaveGame -> player -> cookingRecipes -> item -> value
+SaveGame -> player -> cookingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> craftingRecipes -> item
+SaveGame -> player -> craftingRecipes -> item -> key
+SaveGame -> player -> craftingRecipes -> item -> key -> string
+SaveGame -> player -> craftingRecipes -> item -> value
+SaveGame -> player -> craftingRecipes -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> activeDialogueEvents -> item
+SaveGame -> player -> activeDialogueEvents -> item -> key
+SaveGame -> player -> activeDialogueEvents -> item -> key -> string
+SaveGame -> player -> activeDialogueEvents -> item -> value
+SaveGame -> player -> activeDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> previousActiveDialogueEvents -> item
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key
+SaveGame -> player -> previousActiveDialogueEvents -> item -> key -> string
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value
+SaveGame -> player -> previousActiveDialogueEvents -> item -> value -> int
+SaveGame -> player -> triggerActionsRun
+SaveGame -> player -> triggerActionsRun -> string
+SaveGame -> player -> triggerActionsRun -> string
+SaveGame -> player -> eventsSeen
+SaveGame -> player -> eventsSeen -> int
+SaveGame -> player -> eventsSeen -> int
+SaveGame -> player -> secretNotesSeen
+SaveGame -> player -> songsHeard
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> songsHeard -> string
+SaveGame -> player -> achievements
+SaveGame -> player -> specialItems
+SaveGame -> player -> specialBigCraftables
+SaveGame -> player -> mailReceived
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailReceived -> string
+SaveGame -> player -> mailForTomorrow
+SaveGame -> player -> mailbox
+SaveGame -> player -> mailbox -> string
+SaveGame -> player -> locationsVisited
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> locationsVisited -> string
+SaveGame -> player -> timeWentToBed
+SaveGame -> player -> timeWentToBed -> int
+SaveGame -> player -> sleptInTemporaryBed
+SaveGame -> player -> sleptInTemporaryBed -> boolean
+SaveGame -> player -> stats
+SaveGame -> player -> stats -> specificMonstersKilled
+SaveGame -> player -> stats -> Values
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> Values -> item
+SaveGame -> player -> stats -> Values -> item -> key
+SaveGame -> player -> stats -> Values -> item -> key -> string
+SaveGame -> player -> stats -> Values -> item -> value
+SaveGame -> player -> stats -> Values -> item -> value -> unsignedInt
+SaveGame -> player -> stats -> averageBedtime
+SaveGame -> player -> stats -> beveragesMade
+SaveGame -> player -> stats -> caveCarrotsFound
+SaveGame -> player -> stats -> cheeseMade
+SaveGame -> player -> stats -> chickenEggsLayed
+SaveGame -> player -> stats -> copperFound
+SaveGame -> player -> stats -> cowMilkProduced
+SaveGame -> player -> stats -> cropsShipped
+SaveGame -> player -> stats -> daysPlayed
+SaveGame -> player -> stats -> diamondsFound
+SaveGame -> player -> stats -> dirtHoed
+SaveGame -> player -> stats -> duckEggsLayed
+SaveGame -> player -> stats -> fishCaught
+SaveGame -> player -> stats -> geodesCracked
+SaveGame -> player -> stats -> giftsGiven
+SaveGame -> player -> stats -> goatCheeseMade
+SaveGame -> player -> stats -> goatMilkProduced
+SaveGame -> player -> stats -> goldFound
+SaveGame -> player -> stats -> goodFriends
+SaveGame -> player -> stats -> individualMoneyEarned
+SaveGame -> player -> stats -> iridiumFound
+SaveGame -> player -> stats -> ironFound
+SaveGame -> player -> stats -> itemsCooked
+SaveGame -> player -> stats -> itemsCrafted
+SaveGame -> player -> stats -> itemsForaged
+SaveGame -> player -> stats -> itemsShipped
+SaveGame -> player -> stats -> monstersKilled
+SaveGame -> player -> stats -> mysticStonesCrushed
+SaveGame -> player -> stats -> notesFound
+SaveGame -> player -> stats -> otherPreciousGemsFound
+SaveGame -> player -> stats -> piecesOfTrashRecycled
+SaveGame -> player -> stats -> preservesMade
+SaveGame -> player -> stats -> prismaticShardsFound
+SaveGame -> player -> stats -> questsCompleted
+SaveGame -> player -> stats -> rabbitWoolProduced
+SaveGame -> player -> stats -> rocksCrushed
+SaveGame -> player -> stats -> sheepWoolProduced
+SaveGame -> player -> stats -> slimesKilled
+SaveGame -> player -> stats -> stepsTaken
+SaveGame -> player -> stats -> stoneGathered
+SaveGame -> player -> stats -> stumpsChopped
+SaveGame -> player -> stats -> timesFished
+SaveGame -> player -> stats -> timesUnconscious
+SaveGame -> player -> stats -> totalMoneyGifted
+SaveGame -> player -> stats -> trufflesFound
+SaveGame -> player -> stats -> weedsEliminated
+SaveGame -> player -> stats -> seedsSown
+SaveGame -> player -> biteChime
+SaveGame -> player -> itemsLostLastDeath
+SaveGame -> player -> movementDirections
+SaveGame -> player -> farmName
+SaveGame -> player -> favoriteThing
+SaveGame -> player -> slotCanHost
+SaveGame -> player -> userID
+SaveGame -> player -> catPerson
+SaveGame -> player -> canUnderstandDwarves
+SaveGame -> player -> hasClubCard
+SaveGame -> player -> hasDarkTalisman
+SaveGame -> player -> hasMagicInk
+SaveGame -> player -> hasMagnifyingGlass
+SaveGame -> player -> hasRustyKey
+SaveGame -> player -> hasSkullKey
+SaveGame -> player -> hasSpecialCharm
+SaveGame -> player -> HasTownKey
+SaveGame -> player -> hasUnlockedSkullDoor
+SaveGame -> player -> daysMarried
+SaveGame -> player -> whichPetType
+SaveGame -> player -> whichPetBreed
+SaveGame -> player -> acceptedDailyQuest
+SaveGame -> player -> mostRecentBed
+SaveGame -> player -> mostRecentBed -> X
+SaveGame -> player -> mostRecentBed -> Y
+SaveGame -> player -> shirt
+SaveGame -> player -> hair
+SaveGame -> player -> skin
+SaveGame -> player -> shoes
+SaveGame -> player -> accessory
+SaveGame -> player -> facialHair
+SaveGame -> player -> pants
+SaveGame -> player -> lastGotPrizeFromGil
+SaveGame -> player -> lastGotPrizeFromGil -> WorldDate
+SaveGame -> player -> lastDesertFestivalFishingQuest
+SaveGame -> player -> lastDesertFestivalFishingQuest -> WorldDate
+SaveGame -> player -> hairstyleColor
+SaveGame -> player -> hairstyleColor -> B
+SaveGame -> player -> hairstyleColor -> G
+SaveGame -> player -> hairstyleColor -> R
+SaveGame -> player -> hairstyleColor -> A
+SaveGame -> player -> hairstyleColor -> PackedValue
+SaveGame -> player -> pantsColor
+SaveGame -> player -> pantsColor -> B
+SaveGame -> player -> pantsColor -> G
+SaveGame -> player -> pantsColor -> R
+SaveGame -> player -> pantsColor -> A
+SaveGame -> player -> pantsColor -> PackedValue
+SaveGame -> player -> newEyeColor
+SaveGame -> player -> newEyeColor -> B
+SaveGame -> player -> newEyeColor -> G
+SaveGame -> player -> newEyeColor -> R
+SaveGame -> player -> newEyeColor -> A
+SaveGame -> player -> newEyeColor -> PackedValue
+SaveGame -> player -> shirtItem
+SaveGame -> player -> shirtItem -> isLostItem
+SaveGame -> player -> shirtItem -> category
+SaveGame -> player -> shirtItem -> hasBeenInInventory
+SaveGame -> player -> shirtItem -> name
+SaveGame -> player -> shirtItem -> itemId
+SaveGame -> player -> shirtItem -> specialItem
+SaveGame -> player -> shirtItem -> isRecipe
+SaveGame -> player -> shirtItem -> quality
+SaveGame -> player -> shirtItem -> stack
+SaveGame -> player -> shirtItem -> SpecialVariable
+SaveGame -> player -> shirtItem -> price
+SaveGame -> player -> shirtItem -> indexInTileSheet
+SaveGame -> player -> shirtItem -> indexInTileSheetFemale
+SaveGame -> player -> shirtItem -> clothesType
+SaveGame -> player -> shirtItem -> dyeable
+SaveGame -> player -> shirtItem -> clothesColor
+SaveGame -> player -> shirtItem -> clothesColor -> B
+SaveGame -> player -> shirtItem -> clothesColor -> G
+SaveGame -> player -> shirtItem -> clothesColor -> R
+SaveGame -> player -> shirtItem -> clothesColor -> A
+SaveGame -> player -> shirtItem -> clothesColor -> PackedValue
+SaveGame -> player -> shirtItem -> isPrismatic
+SaveGame -> player -> shirtItem -> Price
+SaveGame -> player -> pantsItem
+SaveGame -> player -> pantsItem -> isLostItem
+SaveGame -> player -> pantsItem -> category
+SaveGame -> player -> pantsItem -> hasBeenInInventory
+SaveGame -> player -> pantsItem -> name
+SaveGame -> player -> pantsItem -> itemId
+SaveGame -> player -> pantsItem -> specialItem
+SaveGame -> player -> pantsItem -> isRecipe
+SaveGame -> player -> pantsItem -> quality
+SaveGame -> player -> pantsItem -> stack
+SaveGame -> player -> pantsItem -> SpecialVariable
+SaveGame -> player -> pantsItem -> price
+SaveGame -> player -> pantsItem -> indexInTileSheet
+SaveGame -> player -> pantsItem -> indexInTileSheetFemale
+SaveGame -> player -> pantsItem -> clothesType
+SaveGame -> player -> pantsItem -> dyeable
+SaveGame -> player -> pantsItem -> clothesColor
+SaveGame -> player -> pantsItem -> clothesColor -> B
+SaveGame -> player -> pantsItem -> clothesColor -> G
+SaveGame -> player -> pantsItem -> clothesColor -> R
+SaveGame -> player -> pantsItem -> clothesColor -> A
+SaveGame -> player -> pantsItem -> clothesColor -> PackedValue
+SaveGame -> player -> pantsItem -> isPrismatic
+SaveGame -> player -> pantsItem -> Price
+SaveGame -> player -> divorceTonight
+SaveGame -> player -> changeWalletTypeTonight
+SaveGame -> player -> gameVersion
+SaveGame -> player -> bibberstyke
+SaveGame -> player -> usingRandomizedBobber
+SaveGame -> player -> caveChoice
+SaveGame -> player -> farmingLevel
+SaveGame -> player -> miningLevel
+SaveGame -> player -> combatLevel
+SaveGame -> player -> foragingLevel
+SaveGame -> player -> fishingLevel
+SaveGame -> player -> luckLevel
+SaveGame -> player -> maxStamina
+SaveGame -> player -> maxItems
+SaveGame -> player -> lastSeenMovieWeek
+SaveGame -> player -> clubCoins
+SaveGame -> player -> trashCanLevel
+SaveGame -> player -> daysLeftForToolUpgrade
+SaveGame -> player -> houseUpgradeLevel
+SaveGame -> player -> daysUntilHouseUpgrade
+SaveGame -> player -> showChestColorPicker
+SaveGame -> player -> hasWateringCanEnchantment
+SaveGame -> player -> temporaryInvincibilityTimer
+SaveGame -> player -> currentTemporaryInvincibilityDuration
+SaveGame -> player -> health
+SaveGame -> player -> maxHealth
+SaveGame -> player -> difficultyModifier
+SaveGame -> player -> gender
+SaveGame -> player -> basicShipped
+SaveGame -> player -> basicShipped -> item
+SaveGame -> player -> basicShipped -> item -> key
+SaveGame -> player -> basicShipped -> item -> key -> string
+SaveGame -> player -> basicShipped -> item -> value
+SaveGame -> player -> basicShipped -> item -> value -> int
+SaveGame -> player -> basicShipped -> item
+SaveGame -> player -> basicShipped -> item -> key
+SaveGame -> player -> basicShipped -> item -> key -> string
+SaveGame -> player -> basicShipped -> item -> value
+SaveGame -> player -> basicShipped -> item -> value -> int
+SaveGame -> player -> basicShipped -> item
+SaveGame -> player -> basicShipped -> item -> key
+SaveGame -> player -> basicShipped -> item -> key -> string
+SaveGame -> player -> basicShipped -> item -> value
+SaveGame -> player -> basicShipped -> item -> value -> int
+SaveGame -> player -> basicShipped -> item
+SaveGame -> player -> basicShipped -> item -> key
+SaveGame -> player -> basicShipped -> item -> key -> string
+SaveGame -> player -> basicShipped -> item -> value
+SaveGame -> player -> basicShipped -> item -> value -> int
+SaveGame -> player -> mineralsFound
+SaveGame -> player -> recipesCooked
+SaveGame -> player -> fishCaught
+SaveGame -> player -> archaeologyFound
+SaveGame -> player -> archaeologyFound -> item
+SaveGame -> player -> archaeologyFound -> item -> key
+SaveGame -> player -> archaeologyFound -> item -> key -> string
+SaveGame -> player -> archaeologyFound -> item -> value
+SaveGame -> player -> archaeologyFound -> item -> value -> ArrayOfInt
+SaveGame -> player -> archaeologyFound -> item -> value -> ArrayOfInt -> int
+SaveGame -> player -> archaeologyFound -> item -> value -> ArrayOfInt -> int
+SaveGame -> player -> callsReceived
+SaveGame -> player -> giftedItems
+SaveGame -> player -> tailoredItems
+SaveGame -> player -> friendshipData
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> friendshipData -> item
+SaveGame -> player -> friendshipData -> item -> key
+SaveGame -> player -> friendshipData -> item -> key -> string
+SaveGame -> player -> friendshipData -> item -> value
+SaveGame -> player -> friendshipData -> item -> value -> Friendship
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Points
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsThisWeek
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> GiftsToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> TalkedToToday
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> ProposalRejected
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Status
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> Proposer
+SaveGame -> player -> friendshipData -> item -> value -> Friendship -> RoommateMarriage
+SaveGame -> player -> dayOfMonthForSaveGame
+SaveGame -> player -> seasonForSaveGame
+SaveGame -> player -> yearForSaveGame
+SaveGame -> player -> qiGems
+SaveGame -> player -> chestConsumedLevels
+SaveGame -> player -> saveTime
+SaveGame -> player -> isCustomized
+SaveGame -> player -> homeLocation
+SaveGame -> player -> lastSleepLocation
+SaveGame -> player -> lastSleepPoint
+SaveGame -> player -> lastSleepPoint -> X
+SaveGame -> player -> lastSleepPoint -> Y
+SaveGame -> player -> disconnectDay
+SaveGame -> player -> disconnectPosition
+SaveGame -> player -> disconnectPosition -> X
+SaveGame -> player -> disconnectPosition -> Y
+SaveGame -> player -> movementMultiplier
+SaveGame -> player -> isMale
+SaveGame -> player -> deepestMineLevel
+SaveGame -> player -> stamina
+SaveGame -> player -> totalMoneyEarned
+SaveGame -> player -> millisecondsPlayed
+SaveGame -> player -> useSeparateWallets
+SaveGame -> player -> theaterBuildDate
+SaveGame -> player -> timesReachedMineBottom
+SaveGame -> player -> UniqueMultiplayerID
+SaveGame -> player -> money
+
+SaveGame -> player 
+SaveGame -> farmhands
+SaveGame -> locations
+SaveGame -> currentSeason
+SaveGame -> samBandName
+SaveGame -> elliottBookName
+SaveGame -> broadcastedMail
+SaveGame -> broadcastedMail -> string
+SaveGame -> constructedBuildings
+SaveGame -> worldStateIDs
+SaveGame -> lostBooksFound
+SaveGame -> goldenWalnuts
+SaveGame -> goldenWalnutsFound
+SaveGame -> miniShippingBinsObtained
+SaveGame -> mineShrineActivated
+SaveGame -> skullShrineActivated
+SaveGame -> goldenCoconutCracked
+SaveGame -> parrotPlatformsUnlocked
+SaveGame -> farmPerfect
+SaveGame -> foundBuriedNuts
+SaveGame -> checkedGarbage
+SaveGame -> visitsUntilY1Guarantee
+SaveGame -> shuffleMineChests
+SaveGame -> dayOfMonth
+SaveGame -> year
+SaveGame -> countdownToWedding
+SaveGame -> dailyLuck
+SaveGame -> uniqueIDForThisGame
+SaveGame -> weddingToday
+SaveGame -> isRaining
+SaveGame -> isDebrisWeather
+SaveGame -> isLightning
+SaveGame -> isSnowing
+SaveGame -> shouldSpawnMonsters
+SaveGame -> hasApplied1_3_UpdateChanges
+SaveGame -> hasApplied1_4_UpdateChanges
+SaveGame -> weddingsToday
+SaveGame -> musicVolume
+SaveGame -> soundVolume
+SaveGame -> dishOfTheDay
+SaveGame -> highestPlayerLimit
+SaveGame -> moveBuildingPermissionMode
+SaveGame -> useLegacyRandom
+SaveGame -> allowChatCheats
+SaveGame -> hasDedicatedHost
+SaveGame -> locationWeather
+SaveGame -> builders
+SaveGame -> bannedUsers
+SaveGame -> bundleData
+SaveGame -> limitedNutDrops
+SaveGame -> latestID
+SaveGame -> options
+SaveGame -> splitscreenOptions
+SaveGame -> CustomData
+SaveGame -> mine_permanentMineChanges
+SaveGame -> mine_lowestLevelReached
+SaveGame -> weatherForTomorrow
+SaveGame -> whichFarm
+SaveGame -> mine_lowestLevelReachedForOrder
+SaveGame -> skullCavesDifficulty
+SaveGame -> minesDifficulty
+SaveGame -> currentGemBirdIndex
+SaveGame -> junimoKartLeaderboards
+SaveGame -> specialOrders
+SaveGame -> availableSpecialOrders
+SaveGame -> completedSpecialOrders
+SaveGame -> acceptedSpecialOrderTypes
+SaveGame -> returnedDonations
+SaveGame -> shippingBin
+SaveGame -> globalInventories
+SaveGame -> collectedNutTracker
+SaveGame -> farmerFriendships
+SaveGame -> cellarAssignments 
+SaveGame -> timesFedRaccoons
+SaveGame -> treasureTotemsUsed
+SaveGame -> perfectionWaivers
+SaveGame -> seasonOfCurrentRaccoonBundle
+SaveGame -> raccoonBundles -> boolean
+SaveGame -> activatedGoldenParrot
+SaveGame -> daysPlayedWhenLastRaccoonBundleWasFinished
+SaveGame -> lastAppliedSaveFix
+SaveGame -> gameVersion
