@@ -4,12 +4,12 @@ import os
 
 class ExperiencePoints:
     def __init__(self, node):
-        self.poinsts = []
+        self.points = []
         
         if node is not None:
             for child in node.findall("int"):
                 if child.text is not None:
-                    self.poinsts.append(int(child.text))
+                    self.points.append(int(child.text))
 
     def __repr__(self):
         return f"ExperiencePoints({self.points})"
@@ -20,8 +20,8 @@ class Player:
         self.farm_name = self._get_text(player_node, "farmName")
         self.favorite_thing = self._get_text(player_node, "favoriteThing")
 
-        # exp_node = player_node.find("experiencePoints")
-        # self.experience_points = ExperiencePoints(exp_node)
+        exp_node = player_node.find("experiencePoints")
+        self.experience_points = ExperiencePoints(exp_node)
 
 
     def _get_text(self, node, tag):
