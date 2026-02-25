@@ -7,55 +7,66 @@ def create_tables(conn: sqlite3.Connection):
 
     # The NPC is missing details and items
     cursor.executescript("""
-        CREATE TABLE IF NOT EXISTS snapshots (
-            id              INTEGER PRIMARY KEY AUTOINCREMENT,
+        CREATE TABLE IF NOT EXISTS savegame (
+            id_savegame     INTEGER PRIMARY KEY AUTOINCREMENT,
             save_file_name  TEXT NOT NULL,
-            parsed_at       TEXT NOT NULL,
-            in_game_year    INTEGER,
-            in_game_season  TEXT,
-            in_game_day     INTEGER
+            player_name     TEXT NOT NULL,
+            gender          TEXT NOT NULL,
+            name_farm       TEXT NOT NULL,
+            type_farm       TEXT
+        );         
+
+        CREATE TABLE IF NOT EXISTS snapshots (
+            id_snapshot     INTEGER PRIMARY KEY AUTOINCREMENT,
+            id_savegame     INTEGER NOT NULL REFERENCES savegame(id_savegame),
+            date            TEXT,
+            year            INTEGER NOT NULL,
+            season          TEXT NOT NULL,
+            day             INTEGER NOT NULL
+            day_absolute    INTEGER,
+            dinero_actual   INTEGER NOT NULL,                              
+            delta_dinero    INTEGER,                              
+            stamina_actual  INTEGER NOT NULL,                     
+            stamina_max     INTEGER NOT NULL,             
+            salud_actual    INTEGER NOT NULL,                              
+            salud_max       INTEGER NOT NULL,                              
+            nivel_mina      INTEGER NOT NULL
         );
 
-        CREATE TABLE IF NOT EXISTS player_economy (
+        CREATE TABLE IF NOT EXISTS skills_snapshots (
             id              INTEGER PRIMARY KEY AUTOINCREMENT,
-            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
-            money           INTEGER,
-            total_money_earned INTEGER
+            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id_snapshot),
+            name            TEXT NOT NULL,
+            exp             INTEGER NOT NULL,
+            lvl             INTEGER NOT NULL,
+            delta_exp       INTEGER NOT NULL             
         );
 
-        CREATE TABLE IF NOT EXISTS player_skills (
-            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
-            farming_xp      INTEGER,
-            mining_xp       INTEGER,  
-            foraging_xp     INTEGER,
-            fishing_xp      INTEGER,
-            combat_xp       INTEGER,
-            deepest_mine_level INTEGER
-        ); 
+        CREATE TABLE IF NOT EXISTS earnings_snapshots (
+            id              INTEGER PRIMARY KEY AUTOINCREMENT,
+            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id_snapshot),
+            delta_farming   INTEGER NOT NULL,
+            delta_fishing   INTEGER NOT NULL,
+            delta_forage    INTEGER NOT NULL,
+            delta_mining    INTEGER NOT NULL,        
+            delta_crafting  INTEGER
+        );
                          
-        CREATE TABLE IF NOT EXISTS player_activity (
-            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
-            days_played     INTEGER,
-            fish_caught       INTEGER,  
-            monsters_killed     INTEGER,
-            quests_completed     INTEGER,
-            steps_taken       INTEGER
-        ); 
-                         
+        CREATE TABLE IF NOT EXISTS friendship_snapshots (
+            id              INTEGER PRIMARY KEY AUTOINCREMENT,
+            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id_snapshot),
+            npc_id     INTEGER NOT NULL REFERENCES npc(id),
+            points   INTEGER NOT NULL,
+            hearts   INTEGER NOT NULL,
+            delta_pts    INTEGER NOT NULL
+        );
+                        
         CREATE TABLE IF NOT EXISTS npc (
             id              INTEGER PRIMARY KEY AUTOINCREMENT,
-            name  TEXT NOT NULL,
-            gender       TEXT NOT NULL
-
+            name            TEXT NOT NULL,
+            type            TEXT NOT NULL
         );
                          
-        CREATE TABLE IF NOT EXISTS friendships_snapshot (
-            snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
-            npc_id     INTEGER NOT NULL REFERENCES npc(id),
-            friendship_points       INTEGER
-        ); 
-                  
-
         
     """)
 
